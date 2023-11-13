@@ -39,7 +39,14 @@ django search in that app for templates
 ![](images/1.jpg "optional-title")
 
 ## Cbv in django
-
+```python
+from django.views import View
+class HomeView(View):
+    def get(self, request):
+        return render(request , "home/index.html")
+    def post(self, request):
+        return render(request, "home/index.html")
+```
 
 
 
