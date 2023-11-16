@@ -47,6 +47,10 @@ class HomeView(View):
     def post(self, request):
         return render(request, "home/index.html")
 ```
+## widget
+```python
+
+```
 
 
 
